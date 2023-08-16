@@ -35,8 +35,8 @@ const listarTareas = ()=> {
 
     tareas.map((item) => {
         let columna = document.createElement("div");
-        columna.classList="disTarea";
-        let tarjeta = `<div class="disTarea"> <span>${item.texto} </span> </div>`;
+        columna.classList="card";
+        let tarjeta = `<div class="card-body d-flex justify-content-center"> <span>${item.texto.toUpperCase()} </span> </div>`;
         columna.innerHTML=tarjeta;
         contenedorTarjetas.append(columna);
     });
