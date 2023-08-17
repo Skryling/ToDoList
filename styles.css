@@ -31,3 +31,13 @@
 .card-body span{
     cursor: pointer;
 }
+
+/* footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
+
+body{
+    background-color: black;
+}
